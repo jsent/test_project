@@ -11,6 +11,12 @@ public class iOS
     this.iPhone = iPhone;
   }
   
+  public void magicFeature()
+  {
+    //Integrates iPhone into human body.
+    this.IntegrateIntoHumanBody();
+  }
+  
   public static void main(String[] args)
   {
     iOS myIOS = new iOS(42);
